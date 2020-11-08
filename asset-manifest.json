@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pros-cons/static/css/main.46be7aa3.chunk.css",
+    "main.js": "/pros-cons/static/js/main.ce44f951.chunk.js",
+    "main.js.map": "/pros-cons/static/js/main.ce44f951.chunk.js.map",
+    "runtime-main.js": "/pros-cons/static/js/runtime-main.50bd6346.js",
+    "runtime-main.js.map": "/pros-cons/static/js/runtime-main.50bd6346.js.map",
+    "static/js/2.e13b32b6.chunk.js": "/pros-cons/static/js/2.e13b32b6.chunk.js",
+    "static/js/2.e13b32b6.chunk.js.map": "/pros-cons/static/js/2.e13b32b6.chunk.js.map",
+    "index.html": "/pros-cons/index.html",
+    "static/css/main.46be7aa3.chunk.css.map": "/pros-cons/static/css/main.46be7aa3.chunk.css.map",
+    "static/js/2.e13b32b6.chunk.js.LICENSE.txt": "/pros-cons/static/js/2.e13b32b6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/pros-cons/static/media/Roboto-Medium.13a29228.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50bd6346.js",
+    "static/js/2.e13b32b6.chunk.js",
+    "static/css/main.46be7aa3.chunk.css",
+    "static/js/main.ce44f951.chunk.js"
+  ]
+}
