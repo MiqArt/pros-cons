@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+  font-weight: normal
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
+  font-weight: bold
+}

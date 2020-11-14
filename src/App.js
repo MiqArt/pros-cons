@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from 'react-redux';
+import isEqual from 'react-fast-compare';
+import List from './components/List';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App({ isCorrectVersion }) {
+  const prosCons = useSelector((state) => state.prosCons, isEqual);
+  if (isCorrectVersion) {
+    return (
+      <div className="App">
+        <div className="container">
+          <div className="mainTitle">Should I eat at McDonalds?</div>
+          <List title="PROS" data={prosCons.filter(el => el.type === "pros")} />
+          <List title="CONS" data={prosCons.filter(el => el.type === "cons")} />
+        </div>
+      </div>
+    );
+  }
+  else {
+    return (
+      <div className="unsupportedBrowser" >
+        You are using a browser version that we do not support. Please use the last version of&nbsp;
+        <a href="https://www.google.com/intl/en/chrome/">Chrome</a>
+        :
+      </div>
+    )
+  }
 }
 
 export default App;
